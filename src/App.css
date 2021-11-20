@@ -1,0 +1,34 @@
+/* Navbar */
+.logo{
+    width: 3rem;
+}
+.textLogo{
+    color: white;
+    margin-left: 5px;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-item{
+    position: relative;
+}
+.nav-item::before{
+    content: "";
+    background-color: #00bffe;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.3s ease-out;
+}
+.nav-item:hover::before{
+    content: "";
+    background-color: #00bffe;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+}
+.navbar-nav{
+    overflow: hidden;
+}

@@ -1,14 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
-    return (
-        <div className="container-fluid">
-            <div className="col">1</div>
-            <div className="col">2</div>
-            <div className="col">3</div>
-        </div>
-    );
+    return <Navbar />;
 }
 
 export default App;
